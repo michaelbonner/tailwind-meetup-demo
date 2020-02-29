@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import PricingTall from "./components/PricingTall";
 import PricingWide from "./components/PricingWide";
 
+import "./tailwind.css";
+
 const links = [
   {
     title: "Tailwind CSS Meetup Demo",
